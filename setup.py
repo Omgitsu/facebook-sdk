@@ -7,16 +7,16 @@ def read(fname):
 
 
 setup(
-    name='facebook-sdk',
-    version='0.3.2',
+    name='facebooksdk',
+    version='0.3.3',
     description='This client library is designed to support the Facebook '
                 'Graph API and the official Facebook JavaScript SDK, which '
                 'is the canonical way to implement Facebook authentication.',
     author='Facebook',
-    url='http://github.com/pythonforfacebook/facebook-sdk',
+    url='http://github.com/omgitsu/facebook-sdk',
     license='Apache',
     py_modules=[
-        'facebook',
+        'facebooksdk',
     ],
     long_description=read("readme.md"),
     classifiers=[
